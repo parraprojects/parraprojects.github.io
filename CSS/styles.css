@@ -1,0 +1,682 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: whitman-display, serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+}
+
+p {
+    color: white;
+    font-size: 14pt;
+}
+
+span{
+    font-weight: 600;
+}
+
+header {
+    height: calc(100vh - 3em);
+    background-image: url(../IMG/cabecera_Mesa%20de%20trabajo%201.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+}
+
+#menu {
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-color: gold;
+    border-bottom-width: thin;
+    position: sticky;
+    top: 0;
+}
+
+#menu > ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    height: 3em;
+    align-items: center;
+}
+
+#menu > ul > li {
+    color: white;
+    font-size: 14pt;
+}
+
+#menu > ul > li > a {
+    color: white;
+    font-size: 14pt;
+    text-decoration: none;
+}
+
+#dormitorio1 {
+    height: 100vh;
+    background-image: url(../IMG/habitaci%C3%B3n.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    margin: auto;
+    justify-content: center;
+}
+
+#dormitorio1 > h1{
+    color: white;
+    margin: auto;
+    margin-left: 0;
+    width: 30%;
+    text-align: center;
+    padding: 0.5em;
+    margin-bottom: 0;
+}
+
+#dormitorio1 > p {
+    background-color: black;
+    margin: auto;
+    width: 30%;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 1.5em;
+    padding-top: 0;
+    padding-left: 3em;
+}
+
+#jardininterior {
+    height: 100vh;
+    background-image: url(../IMG/jardininterior.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    margin: auto;
+    justify-content: center;
+}
+
+#jardininterior > h1{
+    color: white;
+    margin: auto;
+    margin-right: 0;
+    width: 30%;
+    text-align: center;
+    padding: 0.5em;
+    margin-bottom: 0;
+}
+
+#jardininterior > p {
+    background-color: black;
+    margin: auto;
+    margin-top: 0;
+    width: 30%;
+    margin-right: 0;
+    padding: 2em;
+    padding-top: 1em;
+}
+
+#cocina {
+    height: 100vh;
+    background-image: url(../IMG/cocina2.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    margin: auto;
+    justify-content: center;
+}
+
+#cocina > h1{
+    color: white;
+    margin: auto;
+    margin-left: 0;
+    width: 30%;
+    text-align: center;
+    padding: 0.5em;
+    margin-bottom: 0;
+}
+
+#cocina > p {
+    background-color: black;
+    margin: auto;
+    margin-top: 0;
+    width: 30%;
+    margin-left: 0;
+    padding: 1em;
+    padding-top: 0;
+    padding-left: 3em;
+}
+
+#cuatrodormitorios{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(../IMG/cuatrohabitaciones.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    background-color: black;
+}
+
+#cuatrodormitorios > h1{
+    color: white;
+    margin: auto;
+    margin-top: 40vh;
+    margin-bottom: 0;
+    width: 30%;
+    padding: 0.5em;
+    text-align: center;
+}
+
+#cuatrodormitorios > p{
+    color: white;
+    margin: auto;
+    margin-top: 0;
+    font-size: 20pt;
+    width: 30%;
+    text-align: center;
+    padding: 1em;
+    padding-top: 0.5em;
+}
+
+#cocinaplanta{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    background-image: url(../IMG/2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+#cocinaplanta > h1{
+    color: white;
+    text-align: center;
+    width: 30%;
+    padding: 1em;
+    vertical-align: middle;
+    margin: auto;
+    margin-bottom: 0;
+    margin-right: 0;
+    background-color: black;
+}
+
+#cocinaplanta > p{
+    width: 30%;
+    padding: 2em;
+    padding-top: 0;
+    vertical-align: middle;
+    margin: auto;
+    margin-top: 0;
+    margin-right: 0;
+    background-color: black;
+}
+
+
+#datossuites{
+    display: flex;
+    height: 100vh;
+}
+
+#textosuites{
+    margin: auto;
+    width: 33%;
+    flex-direction: column;
+}
+
+#textosuites > h1{
+    color: white;
+    text-align: center;
+}
+
+#textosuites :nth-child(3){
+    margin-top: 2em;
+}
+
+
+#textosuites > p{
+    width: 75%;
+    margin: auto;
+    padding: 1em;
+}
+
+#fotossuites{
+    display: flex;
+    width: 66%;
+}
+
+#fotossuites > figure{
+    width: 50%;
+    overflow: hidden;
+}
+
+#fotossuites > figure > img{
+    height: 100%;
+}
+
+
+#cafeteria{
+    height: 100vh;
+    background-image: url(../IMG/cafeteria.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+
+#cafeteria > h1{
+    color: white;
+    margin: auto;
+    margin-bottom: 0;
+    padding: 1em;
+    padding-bottom: 0;
+    width: 40%;
+    text-align: center;
+}
+
+#cafeteria > p{
+    width: 40%;
+    padding: 1.5em;
+    background-color: black;
+    margin: auto;
+    margin-top: 0;
+    text-align: center;
+}
+
+#instalaciones {
+    height: 75vh;
+    background-image: url(../IMG/banquetes.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+#instalaciones > h1{
+    color: white;
+    margin: auto;
+    margin-left: 0;
+    margin-bottom: 0;
+    width: 30%;
+    text-align-last: center;
+    padding: 0.5em;
+    padding-bottom: 0;
+    font-size: 48pt;
+}
+
+#instalaciones > p{
+    width: 30%;
+    padding: 1em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    margin: auto;
+    margin-left: 0;
+    margin-top: 0;
+    background-color: black;
+}
+
+#salon2{
+    height: 100vh;
+    background-image: url(../IMG/salon3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: left;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+#salon2 > p{
+    width: 30%;
+    padding: 1em;
+    margin: auto;
+    
+}
+
+#salon {
+    height: 100vh;
+    background-image: url(../IMG/salon.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+#salon > h1{
+    color: white;
+    margin: auto;
+    margin-right: 0;
+    margin-bottom: 0;
+    width: 30%;
+    text-align-last: center;
+    padding: 1em;
+    padding-bottom: 0;
+    font-size: 48pt;
+    padding-top: 0.5em;
+}
+
+
+#salon > ul{
+    color: white;
+    font-size: 14pt;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-right: 0;
+    margin-top: 0;
+    text-align: center;
+    padding: 1em;
+}
+
+#salon > ul > li{
+    list-style: none;
+    padding: 0.5em;
+}
+
+#quienessomos{
+    display: flex;
+    height: 100vh;
+    margin: auto;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+#fotorascacielos{
+    width: 50%;
+    overflow: hidden;
+}
+
+#fotorascacielos > figure{
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    margin: auto;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+#fotorascacielos > figure > img{
+    width: 100%;
+}
+
+#textoquienessomos{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#textoquienessomos > figure {
+    height: 10%;
+    overflow: hidden;
+    width: auto;
+    margin: auto;
+    margin-top: 0;
+}
+
+#textoquienessomos > figure > img{
+    height: 100%;
+    width: auto;    
+}
+
+#textoquienessomos > p{
+    margin: auto;
+    height: auto;
+    padding: 1em;
+    width: 70%;
+    margin: auto;
+}
+
+#textoquienessomos > p:first-child{
+    margin-bottom: 0;
+}
+
+#textoquienessomos > p:nth-child(3){
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: 600;
+}
+
+#textoquienessomos > p:nth-child(5){
+  margin-top: 0;
+margin-bottom: 0;
+}
+
+
+#textoquienessomos > ul{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+    font-size: 14pt;
+}
+
+#yold1{
+    height: 100vh;
+    background-image: url(../IMG/yoldfondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#yold1 > h1{
+    margin: auto;
+    width: 30%;
+    font-size: 50pt;
+    padding: 0.5em;
+    color: white;
+    text-align: center;
+    height: auto;
+    margin-bottom: 0;
+}
+
+#yold1 > p{
+    margin: auto;
+    margin-top: 0;
+    width: 30%;
+    font-size: 16pt;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    padding-bottom: 2em;
+}
+
+#yold1 > p:nth-child(2){
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+#yold1 > p:nth-child(3){
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#yold2{
+    height: 75vh;
+    background-image: url(../IMG/yoldfondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#yold2 > h1{
+    margin: auto;
+    margin-top: 0;
+    margin-left: 0;
+    width: 30%;
+    font-size: 50pt;
+    padding-top: 0.5em;
+    padding-left: 30px;
+    color: white;
+    text-align: center;
+    height: auto;
+    margin-bottom: 0;
+}
+
+#yold2 > p{
+    margin: auto;
+    margin-top: 0;
+    margin-left: 0;
+    width: 30%;
+    font-size: 16pt;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    padding-left: 30px;
+    padding-bottom: 2em;
+    text-align: left;
+}
+
+#yold3{
+    height: 75vh;
+    background-image: url(../IMG/yoldfondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#yold3 > h1{
+    margin: auto;
+    margin-top: 0%;
+    margin-right: 0;
+    width: 30%;
+    font-size: 50pt;
+    padding-top: 0.5em;
+    color: white;
+    text-align: center;
+    height: auto;
+    margin-bottom: 0;
+}
+
+#yold3 > p{
+    margin: auto;
+    margin-top: 0;
+    margin-right: 0;
+    width: 30%;
+    font-size: 16pt;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    padding-bottom: 2em;
+}
+
+#yold3 >:nth-child(2){
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#yold3 > p:last-child{
+    margin-top: 0;
+}
+
+#yold4{
+    height: 75vh;
+    background-image: url(../IMG/yoldfondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#yold4 > h1{
+    margin: auto;
+    margin-top: 0;
+    width: 30%;
+    font-size: 50pt;
+    padding-top: 0.5em;
+    color: white;
+    text-align: center;
+    height: auto;
+    margin-bottom: 0;
+}
+
+#yold4 > p{
+    margin: auto;
+    margin-top: 0;
+    width: 30%;
+    font-size: 16pt;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    padding-bottom: 2em;
+}
+
+#dondeestamos{
+    display: flex;
+    height: 100vh;
+}
+
+#datoscontacto{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+    margin: auto;
+}
+
+#datoscontacto > h1{
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
+
+#mapa{
+    width: 50%;
+}
+
+#mapa > iframe{
+    height: 100%;
+    width: 100%;
+}
